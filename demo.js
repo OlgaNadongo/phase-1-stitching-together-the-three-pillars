@@ -14,13 +14,13 @@ const colorStates = {
 // we want to make clickable. Without JavaScript, clicking on these heart shapes
 // does nothing. Uncomment the code and refresh the demo page. 
 
-// const articleHearts = document.querySelectorAll(".like-glyph");
+ const articleHearts = document.querySelectorAll(".like-glyph");
 
 function likeCallback(e) {
   const heart = e.target;
   mimicServerCall()
     .then(function(serverMessage){
-      // STEP 2: Uncomment the 3 lines after the alert.
+      / STEP 2: Uncomment the 3 lines after the alert.
       // Here we're using Pillar 1 (DOM Manipulation) to update the screen and
       // mimicking Pillar 3 (Server Communication) to only update the screen if
       // the sending of information to the server succeeds.
